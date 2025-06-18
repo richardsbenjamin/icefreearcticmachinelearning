@@ -107,7 +107,7 @@ def plot_variable(ax: Axes, var: str, all_var_data: dict, ylabel: str, title_i: 
     return ax
 
 def read_model_data(model: str) -> tuple[ndarray]:
-    ssie, wsie, wsiv, tas, oht_atl, oht_pac, swfd, lwfd = load(f'./icefreearcticml/data/Timeseries_{model}.npy', allow_pickle=True)
+    ssie, wsie, wsiv, tas, oht_atl, oht_pac, swfd, lwfd = load(f'./data/Timeseries_{model}.npy', allow_pickle=True)
     return ssie, wsie, wsiv, tas, oht_atl, oht_pac, swfd, lwfd
 
 def read_model_data_all() -> dict:
