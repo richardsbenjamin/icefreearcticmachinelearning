@@ -1,3 +1,4 @@
 *.png
 .venv
-icefreearcticml/data/
+data/*
+!data/.gitkeep
