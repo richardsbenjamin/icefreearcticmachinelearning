@@ -5,6 +5,7 @@ MODEL_COLOURS = {
     "MPI-ESM1-2-LR": "gray",
     "CanESM5": "green",
     "ACCESS-ESM1-5": "orange",
+    "Observations": "k--"
 }
 MODEL_START_YEAR = 1970
 MODEL_END_YEAR = 2100
@@ -59,6 +60,7 @@ VAR_YLABELS = {
 }
 VAR_YLABELS_SHORT = {
     "ssie": "SSIE",
+    "wsie": "WSIE",
     "tas": "$T_{2m}$",
     "wsiv": "WSIV",
     "oht_atl": "$OHT_{ATL}$",

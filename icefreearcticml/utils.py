@@ -157,3 +157,4 @@ def read_model_data_all() -> dict:
 
 def subtract_ensemble_mean(model_data: DataFrame) -> DataFrame:
     return model_data.subtract(model_data.mean(axis=1), axis=0)
+
